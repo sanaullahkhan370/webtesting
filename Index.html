@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>سادہ فارم — Google Sheets میں بھیجیں</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>رابطہ فارم</h1>
+
+    <form id="myForm">
+      <label>نام
+        <input type="text" name="name" id="name" required />
+      </label>
+
+      <label>ای میل
+        <input type="email" name="email" id="email" required />
+      </label>
+
+      <label>پیغام
+        <textarea name="message" id="message" rows="4" required></textarea>
+      </label>
+
+      <button type="submit" id="submitBtn">جمع کریں</button>
+      <p id="status"></p>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
